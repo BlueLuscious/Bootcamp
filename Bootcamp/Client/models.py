@@ -22,3 +22,5 @@ class ClientModel(models.Model):
     city = models.CharField(max_length=150)
     area_code = models.CharField(max_length=6)
     
+    def __str__(self) -> str:
+        return f"First name: {self.first_name}, Last name: {self.last_name}"
