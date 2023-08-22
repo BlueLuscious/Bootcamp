@@ -21,6 +21,7 @@ class ClientModel(models.Model):
     province = models.CharField(max_length=100)
     city = models.CharField(max_length=150)
     area_code = models.CharField(max_length=6)
+    avatar = models.ImageField(upload_to="avatar", null=True)
     
     def __str__(self) -> str:
         return f"First name: {self.first_name}, Last name: {self.last_name}"
