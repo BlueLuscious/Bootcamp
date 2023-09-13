@@ -1,16 +1,17 @@
-# cd (folder) or (.. (back))
+# cd (folder name)
+# cd .. (back)
 # pip freeze or pip list (show all package)
 
 Create virtual venv
     # python -m venv .venv
     # Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-    # .venv\Scripts\activate.bat y venv\Scripts\deactivate.bat (cmd)
-    # .venv\Scripts\activate y deactivate (python)
-    # .venv\Scripts\activate.ps1 y deactivate (powershell)
+    # .venv\Scripts\activate.bat y venv\Scripts\deactivate.bat (en cmd)
+    # .venv\Scripts\activate y deactivate (en python)
+    # .venv\Scripts\activate.ps1 y deactivate (en powershell)
 
 Create proyects and apps
     # django-admin startproject (name)
-    # django-admin startapp BFB (name)
+    # django-admin startapp (name)
 
 Proyect commands 
     # python manage.py runserver
@@ -19,5 +20,5 @@ Proyect commands
     # python manage.py createsuperuser
 
 Create requirements
-    # pip install package-name (once)
+    # pip install package-name (just once)
     # pip freeze > requirements.txt
